@@ -52,9 +52,9 @@ function preload() {
 
 function setup() {
 
-  createCanvas(window.width, window.height);
+  createCanvas(800, 400);
 
-  bg = createSprite(window.width/2, window.height/2, 900, 500);
+  bg = createSprite(400, 200, 900, 500);
   bg.addImage(bgImage);
   bg.scale = 1.6;
 
